@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+.choices{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.imagSize{
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+    margin-top: 5rem;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.imagSize:hover{
+    cursor: pointer;
+    opacity: 50%;
+    border: 7px solid blue;
+}
+
+#message{
+    background-color: black;
+}
